@@ -5,7 +5,7 @@ public class Config {
         System.out.println("Configuração do sistema inicializada");
     }
 
-    public static Config getInstance(){
+    public static synchronized Config getInstance(){
         if(instance == null){
             instance = new Config();
         }
