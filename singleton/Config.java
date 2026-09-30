@@ -1,3 +1,5 @@
+package singleton;
+
 public class Config {
     private static Config instance;
 
